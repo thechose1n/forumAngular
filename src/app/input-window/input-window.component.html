@@ -1,0 +1,10 @@
+  <mat-form-field class="title">
+    <input matInput [(ngModel)]="data.title" id="input1" placeholder="Titel">
+  </mat-form-field>
+
+  <mat-form-field class="content">
+    <textarea matInput [(ngModel)]="data.content" placeholder="Text" id="input2" value="jij"></textarea>
+  </mat-form-field>
+
+  <button mat-raised-button class="save" [mat-dialog-close]="data" cdkFocusInitial >Speichern</button>
+  <button mat-raised-button color="warn" class="cancel" (click)="onNoClick()">Abbrechen</button>

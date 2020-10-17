@@ -1,0 +1,12 @@
+<button mat-raised-button (click)="openWindow()">ERSTELLEN</button>
+<mat-grid-list cols="3" rowHeight="3:1">
+  <mat-grid-tile *ngFor="let thread of threads">
+    <mat-card class="card" [routerLink]="['/thread', thread.id]">
+      <mat-card-title>{{ thread.title }}</mat-card-title>
+      <mat-card-content>{{ thread.content }}</mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+
+
+
