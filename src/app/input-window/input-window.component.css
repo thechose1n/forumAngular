@@ -1,27 +1,15 @@
 .title {
   width: 100%;
-  font-size: x-large;
 }
 
 .content {
   width: 100%;
-  font-size: x-large;
 }
 
 #input2 {
   height: 300px;
-  font-size: large;
-}
-
-.save {
-  width: 210px;
-  height: 70px;
-  font-size: x-large;
 }
 
 .cancel {
-  width: 210px;
-  height: 70px;
-  font-size: x-large;
   margin-left: 20px;
 }

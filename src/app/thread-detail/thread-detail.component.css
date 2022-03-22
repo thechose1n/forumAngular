@@ -17,7 +17,10 @@
 }
 
 .mat-card-actions {
-  margin-top: 100px;
+  margin-left: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .edit {
@@ -25,21 +28,4 @@
   height: 40px;
   font-size: large;
   bottom: 10px;
-}
-
-.delete {
-  width: 150px;
-  height: 40px;
-  font-size: large;
-  bottom: 10px;
-  left: 200px;
-}
-
-.mat-stroked-button {
-  width: 150px;
-  height: 40px;
-  font-size: large;
-  right: 10px;
-  bottom: 10px;
-  float: right;
 }

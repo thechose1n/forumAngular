@@ -1,0 +1,7 @@
+node_modules
+.idea
+tests_output
+nightwatch.conf.js
+.DS_Store
+logs
+dist

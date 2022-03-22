@@ -27,8 +27,8 @@ export class ThreadDetailComponent implements OnInit {
 
   ngOnInit() {
     /*
-    paramMap Zugriff auf Parameter der aktuellen Route
-    switchMap checkt mit dem neuen Parameter das Array, wenn vorhanden, dann return
+    paramMap access to parameter of actual route
+    switchMap checks through new parameter array, if true, return
      */
     this.route.paramMap.pipe(
       switchMap(params => {

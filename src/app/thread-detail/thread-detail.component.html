@@ -10,10 +10,8 @@
         {{thread.content}}
       </p>
   </mat-card-content>
-  <mat-card-actions>
-    <button mat-button class="edit">Bearbeiten</button>
-    <button mat-button class="delete" color="warn" [routerLink]="['/threads']" (click)="delete(thread.id)">Löschen</button>
-    <button mat-stroked-button [routerLink]="['/threads']">Zurück</button>
-  </mat-card-actions>
 </mat-card>
-
+<mat-card-actions align="begin">
+    <button mat-raised-button class="delete" color="warn" [routerLink]="['/threads']" (click)="delete(thread.id)">Löschen</button>
+    <button mat-raised-button [routerLink]="['/threads']">Zurück</button>
+</mat-card-actions>

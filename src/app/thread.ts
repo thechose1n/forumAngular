@@ -13,7 +13,7 @@ export const THREADS: Thread[] = [
       'vom Einstieg in TypeScript über die Konzepte und die Herausforderungen der SPA-Architektur bis zum Debugging und Testing. ' +
       'Sie lernen dabei grundlegende Angular-Ansätze wie Komponenten, ' +
       'Routing und Services und Tools des Angular-Ökosystems kennen.' },
-  { id: 2, title: 'React 16.13: Vorbereitungen für kommende', content: 'React 16.13 ist da. Neu in der Minor-Version ' +
+  { id: 2, title: 'React 16.13: Vorbereitungen für kommende Version', content: 'React 16.13 ist da. Neu in der Minor-Version ' +
       'sind einige Deprecations sowie neue Warnungen, die beispielsweise dabei helfen sollen, ' +
       'bestimmte Bugs beim Rendering schneller zu entdecken. Auch, wer noch mit String Refs arbeitet, ' +
       'die bereits als deprecated markiert worden waren, bekommt in Zukunft in manchen Fällen eine Warnung angezeigt. ' +
